@@ -15,6 +15,7 @@
     "test-browser-no-install": "node test/unit/browser/index.js",
     "test-node": "mocha test/unit/node/index.js --delay --ui=tdd --timeout=5000 --exit",
     "test-extension": "vscode-test",
+    "test-feature-flags": "mocha test/feature-config.test.ts --require ts-node/register --timeout=5000",
     "test-build-scripts": "cd build && npm run test",
     "check-cyclic-dependencies": "node build/lib/checkCyclicDependencies.ts out",
     "preinstall": "node build/npm/preinstall.ts",

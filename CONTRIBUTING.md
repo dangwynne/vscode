@@ -94,6 +94,17 @@ If you believe the bot got something wrong, please open a new issue and let us k
 
 If you are interested in writing code to fix issues, please see [How to Contribute](https://github.com/microsoft/vscode/wiki/How-to-Contribute) in the wiki.
 
+## Feature Flags
+
+VS Code uses a feature flag system to safely roll out new features and enable experimental functionality. When contributing new features, consider whether they should be controlled by a feature flag, especially if they are:
+
+- Experimental or in early development
+- Potentially disruptive to existing workflows
+- Resource-intensive or performance-sensitive
+- Requiring gradual rollout for testing
+
+For more information about using and implementing feature flags, see the [Feature Flags Documentation](docs/FEATURE_FLAGS.md).
+
 ## Thank You
 
 Your contributions to open source, large or small, make great projects like this possible. Thank you for taking the time to contribute.
