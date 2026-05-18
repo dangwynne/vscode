@@ -56,6 +56,16 @@ Many of the core components and extensions to VS Code live in their own reposito
 
 VS Code includes a set of built-in extensions located in the [extensions](extensions) folder, including grammars and snippets for many languages. Extensions that provide rich language support (inline suggestions, Go to Definition) for a language have the suffix `language-features`. For example, the `json` extension provides coloring for `JSON` and the `json-language-features` extension provides rich language support for `JSON`.
 
+## Feature Flags
+
+VS Code uses a feature flag system to control experimental and optional features. This allows for safer rollout of new functionality and easier testing of experimental features. For more information about available feature flags and how to use them, see the [Feature Flags Documentation](docs/FEATURE_FLAGS.md).
+
+Key features controlled by flags include:
+- AI-powered code suggestions
+- Advanced debugging visualizations
+- Collaborative editing capabilities
+- Performance monitoring and analytics
+
 ## Development Container
 
 This repository includes a Visual Studio Code Dev Containers / GitHub Codespaces development container.
